@@ -1,3 +1,0 @@
-hello from note_home
-
-current path is: /home/andreas/GitHub/data_engineering/exercises/Linux-training
