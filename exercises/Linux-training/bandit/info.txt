@@ -1,0 +1,10 @@
+0
+u: bandit0
+p: bandit0
+port: 2220
+solution: ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+1
+u:
+p:
+
