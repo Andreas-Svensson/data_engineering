@@ -1,0 +1,19 @@
+services:
+  python:
+    # image: python:3.11 # preconfigured image can be used here in docker-compose, else use Dockerfile as below
+    build: . # this looks in current directory for a Dockerfile
+    ports:
+      - "8050:8050"
+    container_name: lecture2
+    
+    # named volume - data persists in docker area in host system which we don't have control over
+    # volumes:
+    #   - dice_simulator:/app/src/ # name of volume:location inside container
+
+    # bind mount
+    volumes:
+      # - hostPath:containerPath:ro 
+      - ./src:/app/src/
+
+# volumes: # specify using volumes
+#   dice_simulator: # specify which volume to use (volume name)
