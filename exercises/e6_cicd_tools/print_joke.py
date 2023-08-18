@@ -5,6 +5,7 @@ import pyjokes
 reactions = [
     "Hilarious!",
     "Oh, the humanity!",
+    1,
     "You've cracked the code!",
     "That's comedy gold!",
     "My sides are splitting!",
