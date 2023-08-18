@@ -1,6 +1,6 @@
 import random
-import pyjokes
 
+import pyjokes
 
 reactions = [
     "Hilarious!",
