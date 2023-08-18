@@ -1,0 +1,1 @@
+print("Container up and script src/ex1_0_setup.py executed")
