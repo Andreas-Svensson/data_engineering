@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo -e "---\nexercise 1\n---"
+
 # a) make dir
 mkdir cool_notes
 
@@ -27,4 +29,4 @@ ls -a
 # h) rename note3
 mv note3.txt note_home.txt
 
-
+echo -e "\nexercise 1 done\n"

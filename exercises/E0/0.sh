@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "running exercise script..."
-sleep 1
+echo -e "---\nexercise 0\n---"
 
 # create note files
 for i in {1..4}; do
@@ -13,4 +12,4 @@ for i in {1..4}; do
   touch $filename
 done
 
-
+echo -e "\nexercise 0 done\n"
